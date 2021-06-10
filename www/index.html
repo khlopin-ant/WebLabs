@@ -2,11 +2,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body> 
+    <script src="anime.js"></script>
     <header>
         <div style="display: flex; overflow: hidden; justify-content: space-between;">
             <div style="float: none; width: auto; overflow: hidden;">
-           
-                <img src="images/Icons/wow.png" width="60px" height="60px" alt="">
+                <img src="images/WOW_Image.png" width="60px"  alt="">
             </div> 
             <div style="float:right; width: 180px;">
                     <img src="images/Phone.png" alt=""> 1-800-5555-204 <br/>
@@ -18,124 +18,104 @@
     <nav>
 
         <div style="display: flex;">
-            <div class="selectedButton"><a href="http:\\www.ya.ru"> Home </a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Services </a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Customers </a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Our Products </a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Careers </a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> About Us</a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Blog</a> </div>
-            <div class="button"><a href="http:\\www.ya.ru"> Contact</a> </div>
+            <div class="selectedButton"><a href="index.html"> Home </a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="index.html"> Services </a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> Customers </a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> Our Products </a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> Careers </a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> About Us</a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> Blog</a> </div>
+            <div class="button" onmouseenter="mouseOver(event)" onmouseleave="mouseOut(event)"><a href="http:\\www.ya.ru"> Contact</a> </div>
         </div>
            
     </nav> 
     <main>
             <div class="banner">
-                <img src="images/Icons/Bunner1.png" height="300px" width="900px" alt="">
+                <div style="padding-top: 25px;padding-left: 25px; text-align: left;">
+                    <div style="color: aliceblue; ">
+                        GovnoLends
+                    </div>
+                    <div style="width: 500; ">
+                        <h1 style="color: aliceblue;">
+                            World of Warcraft
+                        </h1>
+                    </div>
+                </div>
             </div>
-            <aside></aside>
-            <article>
-
+            <aside>
                 <div class="container">
                     <div class="box">
-                        <div style="float:right; width: 180px;">
-                            <img src="images/Icons/Community.png" alt=""> <h3>Community</h3> <br/>
-                            <img src="images/Mail.png" alt=""> contact@whitesqua.re
-                     </div>
+                        <div>
+                            <h3>Community</h3>
+                            <img src="images/line.png" alt="">
+                            <p>Обсуждение World of Warcraft</p>
+                        </div>
                         <div class="container_button">
-                            <img src="images/read_more.png" alt="">
+                            <a href="second.html"><img src="images/read_more.png" alt=""></a>
                         </div>
                     </div>
                     <div class="box">
                         <div>
-                        <h3>Pixel-perfect designs</h3>
+                        <h3>PvP</h3>
                         <img src="images/line.png" alt="">
-                        <p>Morbi gravida nunc ac neque tristique vel egestas justo placera</p>
+                        <p>Обсуждение сражений на аренах и полях боя</p>
                         </div>
-                        <div class="container_button">
-                            <img src="images/read_more.png" alt="">
+                        <div class="container_button" >
+                            <a href="first.html"><img src="images/read_more.png" alt=""></a>
                         </div>
                     </div>
                     <div class="box">
                         <div>
-                            <h3>24/7 Customer Support</h3>
+                            <h3>Classes</h3>
                         <img src="images/line.png" alt="">
-                        <p>Morbi gravida nunc ac neque tristique vel egestas justo placera</p>
+                        <p>Обсуждение классов World of Warcraft</p>
                         </div>
                         <div class="container_button">
-                            <img src="images/read_more.png" alt="">
+                            <a href="third.html"><img src="images/read_more.png" alt=""></a>
                         </div>
-                    </div>
-                    
-                </div>
-                <center>Latest Projects</center>
-                <div class="container_proj">
-                    <div>
-                        <img src="images/Proj_/Proj1.png" width="125" height="125" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Proj_/Proj2.png" width="125" height="125" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Proj_/Proj3.png" width="125" height="125" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Proj_/Proj4.png" width="125" height="125" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Proj_/Proj5.png" width="125" height="125" alt="">
-                    </div>
-                    <div>
-                        <img src="images/Proj_/Proj6.png" width="125" height="125" alt="">
                     </div>
                     
                 </div>
                 <div class="container">
                     <div class="box">
                         <div>
-                            <h3 style="margin : 10; ">News</h3>
-                            <img src="images/line.png" alt="">
-                            <h5>Lorem ipsum dolor</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecen</p>
-                            <h5>Etiam sit amet felis orci</h5>
-                            <p>Lorem ipsum dolor sit amet</p>
+                            <h3>WOW Classic</h3>
+                        <img src="images/line.png" alt="">
+                        <p>Обсуждение World of Warcraft Classic</p>
                         </div>
-                        
-                        <div>
-                            <img src="images/read_more.png" alt="">
+                        <div class="container_button">
+                            <a href="second.html"><img src="images/read_more.png" alt=""></a>
                         </div>
                     </div>
                     <div class="box">
                         <div>
-                            <h3>From our blog</h3>
+                            <h3>Support</h3>
                             <img src="images/line.png" alt="">
-                            <p>Morbi gravida nunc ac neque tristique vel egestas justo placera</p>
+                            <p>Возникли проблемы с установкой игры, игровым процессом или
+                                учетной записью? Приглашаем на форум службы поддрежки
+                            </p>
                         </div>
                         <div>
-                            <img src="images/read_more.png" alt="">
+                            <a href="second.html"><img src="images/read_more.png" alt=""></a>
                         </div>
                         
                     </div>
                     <div class="box">
                         <div>
-                            <h3>Testimonials</h3>
+                            <h3>History</h3>
                             <img src="images/line.png" alt="">
                             <p>“Maecenas malesuada nunc semper orci congue vel iaculis risus pasuere</p>
                         </div>
                         <div>
-                            <img src="images/read_more.png" alt="">
+                            <a href="second.html"><img src="images/read_more.png" alt=""></a>
                         </div>
                         
                     </div>
                     
                 </div>
-                <div class="container_client">
-                    <div>
-                        <img src="images/Our Clients.png" alt="">
-                    </div>
-                    
-                </div>
                 
+            </aside>
+            <article>
             </article>
     </main>
     <footer>
@@ -163,4 +143,5 @@
             </div> 
         </div>
     </footer> 
+    
 </body>

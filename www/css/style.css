@@ -1,5 +1,5 @@
 body  {
-    background-color: #221910;
+    background-color: #ffffff;
     max-width: 960px;
     margin: 0 auto !important;
     float: none !important;
@@ -36,30 +36,28 @@ h1 {
     height: 300px;
     margin-left: 30px;
     background-color: #7cbe5c;
-    background-image: url(../images/Bunner1.png);
+    background-image: url(../images/Banner2.png);
 }
 
 .button {
-    background-color: #2b231c;
-    color: #918c89;
+    background-color: #2f2f2f;
+    color: #606060;
     width: 120px;
     height: 40px;
-    
 }
 .button a {
     color: #606060;
 }
 .selectedButton a {
-    color: #ffffff;
+    color: #7cbe5c;
 }
 
 .selectedButton{
-    background-color: #2b231c;
-    color: #ffffff;
+    background-color: #2f2f2f;
+    color: #7cbe5c;
     width: 120px;
     height: 36px;
-    border-bottom: 4px solid #f6b733;
-    
+    border-bottom: 4px solid #7cbe5c; 
 }
 .list-func-point{
     column-count: 2;
@@ -68,17 +66,16 @@ h1 {
 
 p{
     font-family: Verdana, Arial, Helvetica, sans-serif; 
-    color: #ffffff;
+    color: #2c2c2c;
     font-size: 50%; 
 } 
 .container{
-    background-color: #2e251c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
     margin: 30px 30px;
     border-width: 1px;
+    border-color: #061f32;
     border: solid;
 }
 .container > div{
@@ -88,7 +85,6 @@ p{
     width: 260px;
 }
 .container_proj{
-    background-color: #2b231c;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -100,17 +96,7 @@ p{
     margin: 8px;
     width: 260px;
 }
-.container_client{
-    background-color: #2b231c;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 30px 30px;
-}
-.container_client > div{
-    margin: 8px;
-    width: 260px;
-}
+
 .box{
     display: flex;
     flex-direction: column;
@@ -123,8 +109,7 @@ p{
 }
 
 h3{
-    font-family: sans-serif;
-    color: #ffffff;
+    font-family: sans-serif; 
     margin: 10px;
 }
 h5{
